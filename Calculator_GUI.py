@@ -72,7 +72,7 @@ def evaluateExpression(expression):
     try:
             result = str(eval(expression, {}, {}))
     except Exception:
-            result = ERROR_MSG
+            result = error_msg
     return result
     
     
